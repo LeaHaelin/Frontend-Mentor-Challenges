@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | [Blogr]</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header__nav--mobile">
+          <div class="header__logo-line with--hamburger">
+            <img src="./images/logo.svg" alt="" class="header__nav--logo" />
+            <img
+              src="./images/icon-hamburger.svg"
+              alt=""
+              class="header__nav--hamburger--mobile"
+              id="hamburger"
+            />
+          </div>
+
+          <nav class="nav__items--mobile is--white" id="modal">
+            <li id="mb-product" class="nav__item--list-mb is--product">
+              Product
+              <span
+                ><img
+                  class="nav__item--arrow-mb"
+                  src="./images/icon-arrow-dark.svg"
+                  alt=""
+              /></span>
+            </li>
+            <div
+              id="mb-inside-product"
+              class="nav__list--mobile is--indide-product"
+            >
+              <a class="nav__list--inside-mb"> Overview </a>
+              <a class="nav__list--inside-mb"> Pricing </a>
+              <a class="nav__list--inside-mb"> Marketplace </a>
+              <a class="nav__list--inside-mb"> Features </a>
+              <a class="nav__list--inside-mb"> Integrations </a>
+            </div>
+
+            <li
+              id="mb-company"
+              class="nav__item--list-mb is--company is--company"
+            >
+              Company
+              <span
+                ><img
+                  class="nav__item--arrow-mb"
+                  src="./images/icon-arrow-dark.svg"
+                  alt=""
+              /></span>
+            </li>
+            <div
+              id="mb-inside-company"
+              class="nav__list--mobile is--inside-company"
+            >
+              <a class="nav__list--inside-mb"> About </a>
+              <a class="nav__list--inside-mb"> Team </a>
+              <a class="nav__list--inside-mb"> Blog </a>
+              <a class="nav__list--inside-mb"> Careers </a>
+            </div>
+
+            <li id="mb-connect" class="nav__item--list-mb is--connect">
+              Connect
+              <span
+                ><img
+                  class="nav__item--arrow-mb"
+                  src="./images/icon-arrow-dark.svg"
+                  alt=""
+              /></span>
+            </li>
+            <div
+              id="mb-inside-connect"
+              class="nav__list--mobile is--inside-connect"
+            >
+              <a class="nav__list--inside-mb"> Contact </a>
+              <a class="nav__list--inside-mb"> Newsletter </a>
+              <a class="nav__list--inside-mb"> LinkedIn </a>
+            </div>
+
+            <hr class="nav__line--mobile" />
+
+            <div class="nav__buttons--mobile">
+              <button class="nav__button mb__button--login is--login--mobile">
+                Login
+              </button>
+              <button
+                class="nav__button mb__button--sign-up is--sign-up--mobile"
+              >
+                Sign Up
+              </button>
+            </div>
+          </nav>
+        </div>
+
+        <div class="header__nav--desktop">
+          <img src="./images/logo.svg" alt="" class="header__nav--logo" />
+          <nav class="nav__items--desktop">
+            <li id="dt-product" class="nav__item--list-dt is--product">
+              Product<span
+                ><img
+                  class="nav__item--arrow-dt"
+                  src="./images/icon-arrow-light.svg"
+                  alt=""
+              /></span>
+            </li>
+
+            <li id="dt-company" class="nav__item--list-dt is--company">
+              Company<span
+                ><img
+                  class="nav__item--arrow-dt"
+                  src="./images/icon-arrow-light.svg"
+                  alt=""
+              /></span>
+            </li>
+
+            <li id="dt-connect" class="nav__item--list-dt is--connect">
+              Connect<span
+                ><img
+                  class="nav__item--arrow-dt"
+                  src="./images/icon-arrow-light.svg"
+                  alt=""
+              /></span>
+            </li>
+          </nav>
+          <div class="nav__white-boxes">
+            <div
+              id="dt-inside-product"
+              class="nav__list--desktop nav__list--product is--indide-product"
+            >
+              <a class="nav__list--inside-dt"> Overview </a>
+              <a class="nav__list--inside-dt"> Pricing </a>
+              <a class="nav__list--inside-dt"> Marketplace </a>
+              <a class="nav__list--inside-dt"> Features </a>
+              <a class="nav__list--inside-dt"> Integrations </a>
+            </div>
+            <div
+              id="dt-inside-company"
+              class="nav__list--desktop nav__list--company is--inside-company"
+            >
+              <a class="nav__list--inside-dt"> About </a>
+              <a class="nav__list--inside-dt"> Team </a>
+              <a class="nav__list--inside-dt"> Blog </a>
+              <a class="nav__list--inside-dt"> Careers </a>
+            </div>
+
+            <div
+              id="dt-inside-connect"
+              class="nav__list--desktop nav__list--connect is--inside-connect"
+            >
+              <a class="nav__list--inside-dt"> Contact </a>
+              <a class="nav__list--inside-dt"> Newsletter </a>
+              <a class="nav__list--inside-dt"> LinkedIn </a>
+            </div>
+          </div>
+
+          <div class="nav__buttons--desktop">
+            <button class="nav__button dt__button--login is--login--mobile">
+              Login
+            </button>
+            <button class="nav__button dt__button--sign-up is--sign-up--mobile">
+              Sign Up
+            </button>
+          </div>
+        </div>
+        <!-- same items mb/dt -->
+        <div class="header__content">
+          <h1 class="header__content--h1">A modern publishing platform</h1>
+          <p class="header__content--text">
+            Grow your audience and build your online brand
+          </p>
+          <div class="header__buttons in--content">
+            <button class="header__button header__button--start">
+              Start for Free
+            </button>
+            <button class="header__button header__button--learn">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="content1">
+        <h2 class="content1__head-line">Designed for the future</h2>
+        <div class="content1__text-pic">
+          <picture class="content1__picture">
+            <source
+              media="(min-width:760px)"
+              srcset="./images/illustration-editor-desktop.svg"
+              class="content1__editor--desktop"
+            />
+            <img
+              src="./images/illustration-editor-mobile.svg"
+              alt=""
+              class="content1__editor editor--mobile"
+            />
+          </picture>
+          <div class="content1__text-area">
+            <div class="content1__text-box">
+              <h3 class="content1__text-box--title">
+                Introducing an extensible editor
+              </h3>
+              <p class="content1__text-box--par">
+                Blogr features an exceedingly intuitive interface which lets you
+                focus on one thing: creating content. The editor supports
+                management of multiple blogs and allows easy manipulation of
+                embeds such as images, videos, and Markdown. Extensibility with
+                plugins and themes provide easy ways to add functionality or
+                change the looks of a blog.
+              </p>
+            </div>
+            <div class="content1__text-box">
+              <h3 class="content1__text-box--title">
+                Robust content management
+              </h3>
+              <p class="content1__text-box--par">
+                Flexible content management enables users to easily move through
+                posts. Increase the usability of your blog by adding customized
+                categories, sections, format, or flow. With this functionality,
+                you’re in full control.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content2">
+        <img
+          src="./images/illustration-phones.svg"
+          alt=""
+          class="content2__phones"
+        />
+        <div class="content2__tex-box">
+          <h2 class="content2__head-line">State of the Art Infrastructure</h2>
+          <p class="content2__text--par">
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </div>
+
+      <div class="content3">
+        <picture>
+          <source
+            media="(min-width: 760px)"
+            srcset="./images/illustration-laptop-desktop.svg"
+            class="content3__laptop--desktop"
+          />
+          <img
+            src="./images/illustration-laptop-mobile.svg"
+            alt=""
+            class="content3__laptop"
+          />
+        </picture>
+
+        <div class="content3__text-area">
+          <div class="content3__text-box">
+            <h3 class="content3__text-box--title">Free, open, simple</h3>
+            <p class="content3__text-box--par">
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+          <div class="content3__text-box">
+            <h3 class="content3__text-box--title">Powerful tooling</h3>
+            <p class="content3__text-box--par">
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer color--black">
+        <nav class="nav__items--footer">
+          <img src="./images/logo.svg" alt="" class="footer__logo" />
+          <li class="nav__item--list-ft is--product">Product</li>
+          <div class="nav__list--footer is--indide-product">
+            <a class="nav__list--inside-ft"> Overview </a>
+            <a class="nav__list--inside-ft"> Pricing </a>
+            <a class="nav__list--inside-ft"> Marketplace </a>
+            <a class="nav__list--inside-ft"> Features </a>
+            <a class="nav__list--inside-ft"> Integrations </a>
+          </div>
+
+          <li class="nav__item--list-ft is--company">Company</li>
+          <div class="nav__list--footer is--inside-company">
+            <a class="nav__list--inside-ft"> About </a>
+            <a class="nav__list--inside-ft"> Team </a>
+            <a class="nav__list--inside-ft"> Blog </a>
+            <a class="nav__list--inside-ft"> Careers </a>
+          </div>
+
+          <li class="nav__item--list-ft is--connect">Connect</li>
+          <div class="nav__list--footer is--inside-connect">
+            <a class="nav__list--inside-ft"> Contact </a>
+            <a class="nav__list--inside-ft"> Newsletter </a>
+            <a class="nav__list--inside-ft"> LinkedIn </a>
+          </div>
+        </nav>
+
+        <div class="attribution">
+          Challenge by
+          <a
+            class="attribution__link"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a class="attribution__link" href="https://github.com/LeaHaelin"
+            >Lea Haelin Kim</a
+          >.
+        </div>
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
