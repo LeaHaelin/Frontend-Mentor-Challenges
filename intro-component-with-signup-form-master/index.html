@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content__main--text">
+        <h1 class="content__header">Learn to code by watching others</h1>
+        <p class="content__text">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="content__form">
+        <h2 class="content__form-title">
+          <b>Try it free 7 days</b> then $20/mo. thereafter
+        </h2>
+        <div class="content__form-box">
+          <form action="/" id="form" class="validation_form">
+            <div class="form__group">
+              <input
+                type="text"
+                placeholder="First Name"
+                class="input-box"
+                id="first_name"
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt=""
+                class="validation__error"
+                id="error1"
+              />
+              <p class="validation__message" id="first_message">
+                First Name cannot be empty
+              </p>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="text"
+                placeholder="Last Name"
+                class="input-box"
+                id="last_name"
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt=""
+                class="validation__error"
+                id="error2"
+              />
+              <p class="validation__message" id="last_message">
+                Last Name cannot be empty
+              </p>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="input-box"
+                id="email"
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt=""
+                class="validation__error"
+                id="error3"
+              />
+              <p class="validation__message" id="email_message">
+                Looks like this is not an email
+              </p>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="password"
+                placeholder="Password"
+                class="input-box"
+                id="pwd"
+              />
+              <img
+                src="./images/icon-error.svg"
+                alt=""
+                class="validation__error"
+                id="error4"
+              />
+              <p class="validation__message" id="pwd_message">
+                Password cannot be empty
+              </p>
+            </div>
+            <button type="submit" class="button--claim">
+              Claim your free trial
+            </button>
+          </form>
+          <p class="form__notification">
+            By clicking the button, you are agreeing to our
+            <span class="notification--red">Terms and Services</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a
+          class="att-a"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="att-a"
+          href="https://github.com/LeaHaelin/Frontend-Mentor-Challenges"
+          >Lea Haelin Kim</a
+        >.
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
