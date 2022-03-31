@@ -29,7 +29,6 @@ body {
 }
 
 .content__image-area {
-  border: 1px solid red;
   position: relative;
   width: 278px;
   height: 278px;
@@ -56,7 +55,7 @@ body {
   height: 278px;
   border-radius: 8px;
   position: absolute;
-  top: 86px;
+  top: 0px;
   opacity: 0;
   transition: all 0.3s ease;
 }
@@ -194,7 +193,6 @@ body {
   .content__image-area {
     width: 302px;
     height: 302px;
-    border: 1px solid red;
   }
   .content__img {
     width: 302px;
