@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <div class="hero__mobile">
+          <img
+            src="./images/logo.svg"
+            alt=""
+            class="hero__mobile--logo logo"
+            role="logo"
+          />
+          <img
+            src="./images/icon-hamburger.svg"
+            alt=""
+            class="hero__mobile--hamburger menu-button"
+            role="open-navigation"
+          />
+        </div>
+
+        <div class="hero__desktop">
+          <img
+            src="./images/logo.svg"
+            alt=""
+            class="hero__desktop--logo"
+            role="logo"
+          />
+
+          <nav class="hero__nav-card nav-card" role="desktop-navigation">
+            <li class="nav__list list" role="about">About</li>
+            <li class="nav__list list" role="careers">Careers</li>
+            <li class="nav__list list" role="events">Events</li>
+            <li class="nav__list list" role="products">Products</li>
+            <li class="nav__list list" role="support">Support</li>
+          </nav>
+        </div>
+
+        <div class="hero__text-box">
+          <h1 class="hero__text" role="hero-main">
+            Immersive experiences that deliver
+          </h1>
+        </div>
+      </div>
+
+      <div class="hero__mobile--menu">
+        <div class="menu--header">
+          <img
+            src="./images/logo.svg"
+            alt=""
+            class="menu--logo logo"
+            role="logo"
+          />
+          <img
+            src="./images/icon-close.svg"
+            alt=""
+            class="menu--close menu-button"
+            role="close-navigation"
+          />
+        </div>
+
+        <ul class="menu--list-box">
+          <li class="menu-list list about" role="about">About</li>
+          <li class="menu-list list careers" role="careers">Careers</li>
+          <li class="menu-list list events" role="events">Events</li>
+          <li class="menu-list list products" role="products">Products</li>
+          <li class="menu-list list suport" role="support">Support</li>
+        </ul>
+      </div>
+
+      <div class="content1">
+        <picture>
+          <source
+            media="(min-width: 560px)"
+            srcset="./images/desktop/image-interactive.jpg"
+          />
+          <img
+            src="./images/mobile/image-interactive.jpg"
+            alt=""
+            class="content1__vr"
+            role="playing-vr"
+          />
+        </picture>
+        <div class="content1__text-area" role="content-text-area">
+          <h2 class="content1__header" role="content-header">
+            The leader in interactive VR
+          </h2>
+          <p class="content1__text" role="content-text">
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+
+      <div class="content2">
+        <h2 class="content2__header" role="content-header">Our creations</h2>
+
+        <div class="content2__creations" role="contents">
+          <div class="creation-card deep-earth" role="creations-content1">
+            <h2 class="creation-title">
+              Deep <br />
+              earth
+            </h2>
+          </div>
+
+          <div class="creation-card night-arcade" role="creations-content2">
+            <h2 class="creation-title">
+              Night <br />
+              arcade
+            </h2>
+          </div>
+
+          <div class="creation-card soccer-team" role="creations-content3">
+            <h2 class="creation-title">
+              Soccer <br />
+              team VR
+            </h2>
+          </div>
+
+          <div class="creation-card the-grid" role="creations-content4">
+            <h2 class="creation-title">
+              The <br />
+              grid
+            </h2>
+          </div>
+
+          <div class="creation-card from-above" role="creations-content5">
+            <h2 class="creation-title">
+              From up <br />
+              above VR
+            </h2>
+          </div>
+
+          <div class="creation-card pocket" role="creations-content6">
+            <h2 class="creation-title">
+              Pocket <br />
+              borealis
+            </h2>
+          </div>
+
+          <div class="creation-card the-curiosity" role="creations-content7">
+            <h2 class="creation-title">
+              The <br />
+              curiosity
+            </h2>
+          </div>
+
+          <div class="creation-card fisheye" role="creations-content8">
+            <h2 class="creation-title">
+              Make it <br />
+              fisheye
+            </h2>
+          </div>
+        </div>
+        <button class="see-all" role="button">See all</button>
+      </div>
+
+      <footer class="footer">
+        <img src="./images/logo.svg" alt="" class="footer__logo" />
+        <nav class="footer__nav-card nav-card" role="footer-navigation">
+          <li class="footer__nav-list list" role="about">About</li>
+          <li class="footer__nav-list list" role="careers">Careers</li>
+          <li class="footer__nav-list list" role="events">Events</li>
+          <li class="footer__nav-list list" role="products">Products</li>
+          <li class="footer__nav-list list" role="support">Support</li>
+        </nav>
+        <div class="footer__link-icons">
+          <div class="icon-box">
+            <img
+              src="./images/icon-facebook.svg"
+              alt=""
+              class="icon facebook"
+              role="facebook"
+            />
+          </div>
+          <div class="icon-box">
+            <img
+              src="./images/icon-twitter.svg"
+              alt=""
+              class="icon twitter"
+              role="twitter"
+            />
+          </div>
+          <div class="icon-box">
+            <img
+              src="./images/icon-pinterest.svg"
+              alt=""
+              class="icon pinterest"
+              role="pinterest"
+            />
+          </div>
+          <div class="icon-box">
+            <img
+              src="./images/icon-instagram.svg"
+              alt=""
+              class="icon instagram"
+              role="instagram"
+            />
+          </div>
+        </div>
+        <h4 class="copy-right" role="copy-right">
+          © 2021 Loopstudios. All rights reserved.
+        </h4>
+        <div class="attribution">
+          Challenge by
+          <a
+            class="att-a"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a
+            class="att-a"
+            href="https://github.com/LeaHaelin/Frontend-Mentor-Challenges"
+            >Lea Haelin Kim</a
+          >.
+        </div>
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
