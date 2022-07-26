@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Pod request access landing page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="./assets/desktop/logo.svg" alt="" class="logo" />
+        <picture class="tablet-disktop-hero">
+          <source
+            media="(min-width:1000px)"
+            srcset="./assets/desktop/image-host.jpg"
+          />
+          <img src="./assets/tablet/image-host.jpg" class="host" alt="" />
+        </picture>
+      </div>
+
+      <div class="content">
+        <div class="text-area">
+          <h1 class="headline headline__green">
+            Publish your podcasts <br /><span class="headline headline__white"
+              >everywhere.</span
+            >
+          </h1>
+          <p class="paragraph">
+            Upload your audio to Pod with a single click. We’ll then distribute
+            your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
+            Casts and more!
+          </p>
+        </div>
+
+        <div class="icons">
+          <img src="./assets/desktop/spotify.svg" class="icon spotify" alt="" />
+          <img
+            src="./assets/desktop/apple-podcast.svg"
+            class="icon apple-pot"
+            alt=""
+          />
+          <img
+            src="./assets/desktop/google-podcasts.svg"
+            class="icon google-pot"
+            alt=""
+          />
+          <img
+            src="./assets/desktop/pocket-casts.svg"
+            class="icon pocket"
+            alt=""
+          />
+        </div>
+        <form class="form-area" onsubmit="submitForm(event)">
+          <input class="input--email" type="text" placeholder="Email address" />
+          <p class="error">Oops! Please check your email</p>
+          <button class="button--submit" type="submit">Request access</button>
+        </form>
+      </div>
+
+      <img src="./assets/desktop/bg-pattern-dots.svg" class="dots" alt="" />
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

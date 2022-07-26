@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap');
+/* font-family: 'Chivo', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* mobile */
+.tablet-disktop-hero{
+    display: none;
+}
+.dots{
+    display: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 375px;
+    background: url(./assets/mobile/image-host.jpg);
+    background-color: #121725;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    font-family: 'Chivo', sans-serif;
+}
+
+.logo{
+    margin: 62px 120px 57px; 
+    width: 134.85px;
+    height: 56px;
+}
+
+.text-area{
+    text-align: center;
+}
+
+.headline{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.headline__green{
+    color: #54E6AF;
+}
+.headline__white{
+    color: #FFFFFF;
+}
+
+.paragraph{
+    color: #C2CBE5;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 24px;
+    margin-top: 16px;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 24px;
+    height: 17px;
+    margin-top: 33px;
+    opacity: 0.7;
+}
+
+.google-pot{
+    height: 11px;
+    margin-top: 3px;
+}
+.pocket{
+    height: 15px;
+}
+
+.form-area{
+    padding: 48px 24px 94px;
+}
+
+
+.input--email{
+    width: 327px;
+    height: 46px;
+    border-radius: 28px;
+    border: none;
+    background-color: #2C344B;
+    padding-left: 32px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.input--email::placeholder{
+    font-size: 14px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+
+.button--submit{
+    margin-top: 16px ;
+    width: 327px;
+    height: 46px;
+    border-radius: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #121725;
+    background: #54E6AF;
+    border: none;
+}
+
+.button--submit:hover{
+    cursor: pointer;
+    background-color: #B3FFE2;
+}
+
+.error{
+    font-size: 12px;
+    color: #FB3E3E;
+    padding-left: 32px;
+    display: none;
+}
+
+.error-open{
+    display: block;
+}
+
+/* Tablet */
+@media (min-width:700px) {
+    .container{
+        max-width: 768px;
+        height: 1024px;
+        background: #121725;
+        position: relative;
+    }
+    
+    .logo{
+        margin: 50px 39px 0px;
+    }
+    
+    .tablet-disktop-hero{
+        display: block;
+        width: 491px;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+    
+    .content{
+        width: 635px;
+        height: 509px;
+        position: absolute;
+        top: 258px;
+        left: 39px;
+        background-color: #121725;
+    }
+
+    .text-area{
+        text-align: left;
+    }
+
+
+    .headline{
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        margin-top: 93px;
+    }
+
+    .paragraph{
+        width: 445px;
+        padding: 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 31px;
+    }
+    
+    .icons{
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        position: absolute;
+        top: 480px;
+        height: 29px;
+        width: 536px;
+    }
+
+
+    .google-pot{
+        height: 18px;
+        margin-top: 4px;
+    }
+    .pocket{
+        height: 26px;
+    }
+
+    
+    .form-area{
+        padding: 0px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .input--email{
+        width: 427px;
+        height: 56px;
+        border-radius: 28px;
+        padding-left: 32px;
+    }
+
+    .button--submit{
+        width: 162px;
+        height: 46px;
+        position: absolute;
+        top: -12px;
+        left: 260px;
+    }
+    
+    .error{
+        margin-top: 8px;
+        font-size: 12px;
+        color: #FB3E3E;
+        padding-left: 32px;
+        display: none;
+    }
+    .error-open{
+        display: block;
+    }
+    
+    .dots{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+    }
+
+}
+
+/* Desktop */
+
+@media(min-width: 1000px){
+    .container{
+        max-width: 1440px;
+        height: 900px;
+    }
+
+    .logo{
+        margin: 102px 165px 0px;
+    }
+
+    .tablet-disktop-hero{
+        display: block;
+        width: 888px;
+        height: 640px;
+        position: absolute;
+        top: 130px;
+        right: 0;
+    }
+
+    .content{
+        width: 723px;
+        height: 509px;
+        position: absolute;
+        top: 261px;
+        left: 165px;
+    }
+
+
+    .headline{
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 62px;
+        margin-top: 88px;
+    }
+
+    .paragraph{
+        margin-top: 24px;
+    }
+
+    .error-open{
+    display: block;
+}
+
+    .dots{
+        display: block;
+        position: absolute;
+        bottom: 78px;
+        left: 1208px;
+    }
+}

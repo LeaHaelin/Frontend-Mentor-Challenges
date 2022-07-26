@@ -1,9 +1,10 @@
 import iconDice from "./images/icon-dice.svg";
 import dividerMobile from "./images/pattern-divider-mobile.svg"
 import dividerDesktop from "./images/pattern-divider-desktop.svg"
-import "./styles.css"
+// import "./styles.css"
 import axios from "axios";
 import React, { useState } from 'react';
+import "./styles/app.scss"
 
 
 
@@ -17,7 +18,7 @@ function App() {
    })
  }
 
-
+ console.log(inputData);
   return (
     <div classNameName="App">
      <div className="container">
