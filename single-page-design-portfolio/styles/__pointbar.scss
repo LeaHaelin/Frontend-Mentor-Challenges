@@ -1,0 +1,23 @@
+.point-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px 32px 16px;
+}
+
+.point-bar__logo{
+    width: 48px;
+}
+
+.point-bar__consultation{
+    width: 176px;
+    height: 44px;
+    border: none;
+    border-radius: 28px;
+    background-color: #030303;
+    color: #FFF7F0;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: capitalize;
+}

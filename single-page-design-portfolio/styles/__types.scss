@@ -1,0 +1,77 @@
+.contents__category{
+    max-width: 375px;
+    display: grid;
+    grid-template-rows: 364px 182px 158px 182px 182px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+    grid-template-areas: 
+    "gr gr"
+    "uix app"
+    "ill ill"
+    "pho pho"
+    "mot mot";
+    margin-top: 32px;
+}
+
+.category{
+    border-radius: 8px;
+    padding: 24px;
+    position: relative;
+}
+
+.category__graphic-design{
+    max-width: 343px;
+    height: 364px;
+    grid-area: gr;
+    background-color: #755CDE;
+}
+
+.category__ui-ux{
+    max-width: 159px;
+    height: 182px;
+    grid-area: uix;
+    background-color: #F6A560;
+
+}
+.category__apps{    
+    max-width: 159px;
+    height: 182px;
+    grid-area: app;
+    background-color: #F39E9E;
+
+}
+.category__illustration{
+    width: 343px;
+    height: 158px;
+    grid-area: ill;
+    background-color: #EB7565;
+}
+
+.category__photography{
+    width: 343px;
+    height: 182px;
+    grid-area: pho;
+    background-color: #61C4B7;
+
+}
+.category__motion-graphics{
+    width: 343px;
+    height: 182px;
+    grid-area: mot;
+    background-color: #552049;
+
+}
+
+
+.category__pattern{
+position: absolute;
+right: 24px;
+}
+
+.category__title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 24px;
+}
