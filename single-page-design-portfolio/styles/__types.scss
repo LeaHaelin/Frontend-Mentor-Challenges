@@ -1,5 +1,7 @@
+// mobile
 .contents__category{
     max-width: 375px;
+    margin: 0 16px;
     display: grid;
     grid-template-rows: 364px 182px 158px 182px 182px;
     grid-template-columns: 1fr 1fr;
@@ -73,4 +75,82 @@ right: 24px;
     color: #FFFFFF;
     position: absolute;
     bottom: 24px;
+}
+
+// tablet
+@media (min-width:770px){
+    .contents__category{
+        max-width: 768px;
+        margin: 0 39px;
+        display: grid;
+        grid-template-rows: 182px 158px 182px;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 24px;
+        grid-template-areas: 
+        "gr uix app"
+        "gr ill ill"
+        "pho mot mot";
+        margin-top: 64px;
+    }
+
+    .category__graphic-design{
+        max-width: 333px;
+    }
+    
+    .category__ui-ux{
+        max-width: 155px;
+    }
+    .category__apps{    
+        max-width: 155px;   
+    }
+
+    .category__illustration{
+        width: 333px;
+    }
+    
+    .category__photography{
+        width: 333px;
+    }
+    .category__motion-graphics{
+        width: 333px;
+    }
+
+}
+// desktop
+@media (min-width: 1400px){
+    .contents__category{
+        max-width: 1440px;
+        margin: 0 165px;
+        display: grid;
+        grid-template-rows: 182px 158px;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        grid-gap: 24px;
+        grid-template-areas: 
+        "gr uix app pho"
+        "gr ill ill mot";
+        margin-top: 80px;
+    }
+
+    .category__graphic-design{
+        max-width: 354px;
+    }
+    
+    .category__ui-ux{
+        max-width: 164px;
+    }
+    .category__apps{    
+        max-width: 164px;   
+    }
+
+    .category__illustration{
+        width: 354px;
+    }
+    
+    .category__photography{
+        width: 354px;
+    }
+    .category__motion-graphics{
+        width: 354px;
+        height: 158px;
+    }
 }

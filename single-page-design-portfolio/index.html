@@ -87,72 +87,53 @@
             alt="Amy's picture"
             class="profile__face"
           />
-          <h3 class="profile__headline">
-            I’m Amy, and I’d love to work on your next project
-          </h3>
-          <p class="profile__phrase">
-            I love working with others to create beautiful design solutions.
-            I’ve designed everything from brand illustrations to complete mobile
-            apps. I’m also handy with a camera!
-          </p>
-          <button class="profile__btn consultation-btn">
-            Free Consultation
-          </button>
+          <div class="profile__text-btn">
+            <h3 class="profile__headline">
+              I’m Amy, and I’d love to work on your next project
+            </h3>
+            <p class="profile__phrase">
+              I love working with others to create beautiful design solutions.
+              I’ve designed everything from brand illustrations to complete
+              mobile apps. I’m also handy with a camera!
+            </p>
+            <button class="profile__btn consultation-btn">
+              Free Consultation
+            </button>
+          </div>
         </section>
         <section class="contents__works">
           <h2 class="works__title">My Work</h2>
-          <div class="works__slides">
-            <!-- 1 -->
-            <img
-              src="./starter-code/assets/image-slide-1.jpg"
-              alt="cool ocean blue colored object with spreading white sand"
-              class="works__slide"
-            />
-            <!-- 2 -->
-            <img
-              src="./starter-code/assets/image-slide-2.jpg"
-              alt="dark purple color pattern"
-              class="works__slide"
-            />
-            <!-- 3 -->
-            <img
-              src="./starter-code/assets/image-slide-3.jpg"
-              alt="left hand with a watch is holing small folded news-paper with colorful background"
-              class="works__slide"
-            />
-            <!-- 4 -->
-            <img
-              src="./starter-code/assets/image-slide-4.jpg"
-              alt="black graphic design notes with yellow post-it"
-              class="works__slide"
-            />
-            <!-- 5 -->
-            <img
-              src="./starter-code/assets/image-slide-5.jpg"
-              alt="left hand is holidng a mobile on white natural light background with a cup of coffe and a small pot of cactus "
-              class="works__slide"
-            />
-          </div>
+          <ul class="works__container" id="slides-container">
+            <li class="works__slide"></li>
+            <li class="works__slide"></li>
+            <li class="works__slide" id="first-slide"></li>
+            <li class="works__slide"></li>
+            <li class="works__slide"></li>
+          </ul>
           <div class="works__arrows">
             <img
               src="./starter-code/assets/icon-arrow-left.svg"
               alt="click to move cards to left"
-              class="works__arrow arrow--left"
+              class="works__arrow"
+              id="arrow--left"
             /><img
               src="./starter-code/assets/icon-arrow-right.svg"
               alt="click to move cards to right"
-              class="works__arrow arrow--right"
+              class="works__arrow"
+              id="arrow--right"
             />
           </div>
         </section>
         <section class="contents__contact">
-          <h2 class="contact__headline">Book a call with me</h2>
-          <p class="contact__phrase">
-            I’d love to have a chat to see how I can help you. The best first
-            step is for us to discuss your project during a free consultation.
-            Then we can move forward from there.
-          </p>
-          <button class="profile__btn consultation-btn">
+          <div class="contact__text">
+            <h2 class="contact__headline">Book a call with me</h2>
+            <p class="contact__phrase">
+              I’d love to have a chat to see how I can help you. The best first
+              step is for us to discuss your project during a free consultation.
+              Then we can move forward from there.
+            </p>
+          </div>
+          <button class="contact__btn consultation-btn">
             Free Consultation
           </button>
         </section>
@@ -165,6 +146,21 @@
         />
         <button class="point-bar__consultation">free consultation</button>
       </footer>
+      <div class="attribution">
+        Challenge by
+        <a
+          class="att-a"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="att-a"
+          href="https://github.com/LeaHaelin/Frontend-Mentor-Challenges"
+          >Lea Haelin Kim</a
+        >.
+      </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>

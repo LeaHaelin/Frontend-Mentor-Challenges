@@ -1,9 +1,11 @@
+
+//mobile
 .point-bar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 16px 32px 16px;
+    padding: 16px 16px 32px;
 }
 
 .point-bar__logo{
@@ -20,4 +22,32 @@
     font-weight: 700;
     font-size: 14px;
     text-transform: capitalize;
+}
+
+.point-bar__consultation:hover{
+    cursor: pointer;
+    background-color: #755CDE;
+}
+
+// tablet
+@media (min-width:770px){
+    .point-bar{
+        padding: 34px 40px 56px;
+    }
+
+    .point-bar__logo{
+        width: 64px;
+    }
+    
+    .point-bar__consultation{
+        width: 228px;
+        height: 56px; 
+    }
+}
+
+// desktop
+@media (min-width: 1400px){
+    .point-bar{
+        padding: 34px 164px 64px;
+    }
 }

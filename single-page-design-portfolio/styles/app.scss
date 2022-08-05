@@ -4,6 +4,7 @@
 @import "./_profile";
 @import "./_work-slides";
 @import "./_contact";
+@import "./_attribution";
 // font
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
 // font-family: 'Plus Jakarta Sans', sans-serif;
@@ -16,14 +17,31 @@
 }
 
 .container{
-    border: 1px solid red;
     max-width: 375px;
     margin: 0 auto;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .contents{
-    padding: 0 16px;
     min-width: 375px;
 }
 
+
+@media (min-width:770px){
+    .container{
+        max-width: 768px;
+    }
+    .contents{
+        min-width: 768px;
+    }
+}
+
+
+@media (min-width: 1400px){
+    .container{
+        max-width: 1440px;
+    }
+    .contents{
+        min-width: 1440px;
+    }
+}
