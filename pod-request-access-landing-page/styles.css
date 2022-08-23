@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    background: #121725;
+}
 /* mobile */
 .tablet-disktop-hero{
     display: none;
@@ -24,6 +26,7 @@
     background-size: cover;
     background-blend-mode: overlay;
     font-family: 'Chivo', sans-serif;
+    height: 100%;
 }
 
 .logo{
@@ -133,7 +136,7 @@
 /* Tablet */
 @media (min-width:700px) {
     .container{
-        max-width: 768px;
+        min-width: 768px;
         height: 1024px;
         background: #121725;
         position: relative;
@@ -248,8 +251,11 @@
 /* Desktop */
 
 @media(min-width: 1000px){
+    body{
+        background-color: #121725;
+    }
     .container{
-        max-width: 1440px;
+        min-width: 1440px;
         height: 900px;
     }
 
