@@ -1,6 +1,8 @@
 # Frontend Mentor - Pod request access landing page
 
-[Pod request access landing page](https://fem-lea-pod-request-access.netlify.app/)
+# Link
+
+[Pod request access landing page](https://lea-fem-pod-request.netlify.app/)
 
 ![Design preview for the Pod request access landing page coding challenge](./preview.jpg)
 
